@@ -52,7 +52,7 @@
   cursor: default;
 }
 
-.background__main i:hover {
+.background__main i.hover {
   transition: 0s;
   color: #0f0;
   text-shadow: 0 0 120px #0f0;

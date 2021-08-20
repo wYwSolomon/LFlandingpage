@@ -64,4 +64,22 @@ const bgAnimation = function () {
   }
 };
 
+document
+  .querySelector(".background__main")
+  .addEventListener("mouseover", function (e) {
+    // console.log("hi");
+    if (e.target.classList.contains("fal")) {
+      e.target.classList.add("hover");
+    }
+  });
+
+document
+  .querySelector(".background__main")
+  .addEventListener("mouseout", function (e) {
+    // console.log("hi");
+    if (e.target.classList.contains("fal")) {
+      e.target.classList.remove("hover");
+    }
+  });
+
 bgAnimation();
